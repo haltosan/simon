@@ -6,6 +6,7 @@
     <title>Home sweet home</title>
     <link rel="icon" href="favicon.ico" />
 	
+	<script src="login.js"></script>
 	<link rel="stylesheet" href="main.css" />
 	
 	<link
@@ -40,13 +41,10 @@
     <main class="container-fluid bg-secondary text-center">
       <h1>Welcome</h1>
       <p>What... is your name?</p>
-      <form method="get" action="play.html">
-        <label for="name">Name</label>
         <input type="text" id="name" placeholder="Your name here" />
-        <button type="submit">Login</button>
+          <button class="btn btn-primary" onclick="login()">Login</button>
       </form>
 	  <p>I hope your quest is to be the greatest simon player ever, because that is all I have here</p>
-	  <p>Click <a href="play.html">here</a> to get cracking</p>
     </main>
 
     <footer class="bg-dark text-dark text-muted">
