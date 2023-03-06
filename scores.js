@@ -14,7 +14,7 @@ function loadScores() {
       const scoreTdEl = document.createElement('td');
       const dateTdEl = document.createElement('td');
 
-      positionTdEl.textContent = i + 1;
+      positionTdEl.textContent = i + 4;
       nameTdEl.textContent = score.name;
       scoreTdEl.textContent = score.score;
       dateTdEl.textContent = score.date;
